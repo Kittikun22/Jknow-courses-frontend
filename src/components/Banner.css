@@ -1,0 +1,56 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.banner-bg {
+    height: 500px;
+    background: url(../asset/Banner-08.webp) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px -250px 35px -40px inset;
+}
+.banner-con {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5%;
+    height: 500px;
+}
+.banner-text {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+
+}
+.banner-text .banner-con-text{
+    word-wrap: break-word;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    
+}
+.banner-btn {
+    background: #fff;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.banner-btn:hover {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .banner-text {
+        padding: 0 2rem;
+    }
+}
